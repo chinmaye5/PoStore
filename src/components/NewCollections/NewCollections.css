@@ -1,0 +1,25 @@
+.new-collections {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.new-collections h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.new-collections hr {
+    width: 50px;
+    margin: 0 auto 20px;
+    border: 2px solid #733ec9;
+    border-radius: 2px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+

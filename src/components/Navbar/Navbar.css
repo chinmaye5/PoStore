@@ -1,0 +1,123 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+    height: 40px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p{
+    color: #3a1f64;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.logo-img{
+    height: 37px;
+}
+
+.cart-img{
+    height: 25px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    
+}
+/* Basic styling for each item */
+.nav-menu li {
+    position: relative;
+    padding-bottom: 2px; /* Space under the text for the underline */
+    cursor: pointer;
+}
+
+
+
+/* Underline effect */
+.nav-menu li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #733ec9; /* Underline color */
+    transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.nav-menu li:hover::after {
+    width: 100%;
+}
+
+/* Keep the underline on the active item */
+.nav-menu li.active::after {
+    width: 100%; /* Keep the underline visible */
+}
+
+
+  
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login-cart button{
+    width: 138px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #733ec9;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-login-cart button:active{
+    background-color: #aaaaaa;
+}
+
+.nav-cart-count{
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+}
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    position: relative; /* Allow for absolute positioning inside */
+}
+

@@ -1,0 +1,45 @@
+.item-card {
+    background-color: rgb(238, 234, 234); /* Card background */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the card */
+    text-align: center; /* Center text */
+    margin: 10px; /* Spacing between cards */
+    transition: transform 0.2s; /* Animation effect */
+    width: 270px;
+    /* background: linear-gradient(to bottom, #ebe5f7, #eee9f4);  */
+}
+
+.item-card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+}
+
+.item-image {
+    height: 350px; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+.item-name {
+    font-size: 16px; /* Smaller font size */
+    color: #333; /* Darker color for better readability */
+    margin: 10px 0; /* Spacing above and below the name */
+}
+
+.item-prices {
+    display: flex; /* Flexbox for price alignment */
+    justify-content: center; /* Center the prices */
+}
+
+.new-price {
+    font-size: 18px; /* New price larger */
+    color: #ff4242; /* Different color for new price */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.old-price {
+    font-size: 14px; /* Smaller old price */
+    text-decoration: line-through; /* Strikethrough for old price */
+    color: #999; /* Grey color for old price */
+    margin-left: 10px; /* Spacing between new and old price */
+}

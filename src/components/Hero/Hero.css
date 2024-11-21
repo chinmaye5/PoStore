@@ -1,0 +1,74 @@
+.hero {
+    height: 70vh;
+    background: linear-gradient(to bottom, #cbabff, #ffffff); /* Light purple gradient */
+    display: flex;
+    padding: 0 20px;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 50px; 
+    font-weight: bold;/* Adjusted padding for responsiveness */
+}
+
+.hero-left h2 {
+    color: #090909;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 27px; /* Adjusted font size for clarity */
+    font-weight: 700;
+    margin:0;
+}
+
+.hand-wave-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wave_icon {
+    height: 35px; /* Adjusted for better scaling */
+}
+
+.hero-latest-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 280px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #ff4242;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-latest-button:hover {
+    background-color: #e42626; /* Darken on hover */
+}
+
+.arrow_icon {
+    height: 30px; /* Smaller icon for proportionality */
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_poster {
+    height: 750px;
+}

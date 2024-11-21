@@ -1,0 +1,26 @@
+.popular {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.popular h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.popular hr {
+    width: 50px;
+    margin: 0 auto 20px;
+    border: 2px solid #733ec9;
+    border-radius: 2px;
+}
+
+.popular-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
